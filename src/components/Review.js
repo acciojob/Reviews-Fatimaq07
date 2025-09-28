@@ -76,14 +76,14 @@ const Review = () => {
       <p className="info">{text}</p>
       <div className="button-container">
         <button className="prev-btn" onClick={prevPerson}>
-          Prev
+          &#8249;
         </button>
         <button className="next-btn" onClick={nextPerson}>
-          Next
+          &#8250;
         </button>
       </div>
       <button className="random-btn" onClick={randomPerson}>
-        surprise me
+        Surprise Me
       </button>
     </article>
   );
